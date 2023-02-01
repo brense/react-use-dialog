@@ -14,7 +14,7 @@ React hook to control and trigger dialogs.
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import { DialogContextProvider } from "react-use-dialog";
+import { DialogContextProvider } from "react-hook-use-dialog";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
@@ -30,7 +30,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
 ```tsx
 import { useCallback } from "react";
 import MyCustomConfirmDialog from "./MyCustomConfirmDialog";
-import useDialog from "react-use-dialog";
+import useDialog from "react-hook-use-dialog";
 
 export default function App() {
   const confirmDialog = useDialog(MyCustomConfirmDialog);

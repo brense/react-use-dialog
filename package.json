@@ -1,5 +1,5 @@
 {
-  "name": "react-use-dialog",
+  "name": "react-hook-use-dialog",
   "description": "React hook to control and trigger dialogs",
   "private": false,
   "version": "0.8.0",
