@@ -10,9 +10,9 @@
     "url": "git+https://github.com/brense/react-use-dialog.git"
   },
   "keywords": [
-    "vite",
-    "apollo",
-    "server"
+    "react",
+    "hooks",
+    "dialog"
   ],
   "author": "Rense Bakker",
   "license": "MIT",
