@@ -2,7 +2,7 @@
   "name": "react-hook-use-dialog",
   "description": "React hook to control and trigger dialogs",
   "private": false,
-  "version": "0.9.3",
+  "version": "0.9.4",
   "main": "lib-esm/index.js",
   "repository": {
     "type": "git",
