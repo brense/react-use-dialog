@@ -26,8 +26,8 @@
     "prepublishOnly": "tsc --p tsconfig.npm.json"
   },
   "peerDependencies": {
-    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
-    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+    "react": ">16.8.0",
+    "react-dom": ">16.8.0"
   },
   "devDependencies": {
     "@emotion/react": "^11.10.5",
