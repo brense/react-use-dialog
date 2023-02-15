@@ -4,7 +4,6 @@
   "private": false,
   "version": "0.9.1",
   "main": "lib-esm/index.js",
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brense/react-use-dialog.git"
