@@ -1,4 +1,4 @@
-import React, { useCallback, useContext, useReducer } from 'react'
+import React, { useCallback, useContext, useMemo, useReducer } from 'react'
 
 type DialogComponent = React.ComponentType<{
   open: boolean
@@ -46,7 +46,7 @@ export default function useDialog<
     [setDialogContext]
   )
 
-  return { open }
+  return useMemo(() => ({ open }), [open])
 }
 
 export function DialogContextProvider({
